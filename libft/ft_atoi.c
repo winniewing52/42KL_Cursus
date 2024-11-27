@@ -15,26 +15,10 @@
 int	convert(const char *str, int i, int sign)
 {
 	long	num;
-	int		digit;
 
 	num = 0;
-	digit = (str[i] - '0');
 	while ((str[i] >= '0') && (str[i] <= '9'))
 	{
-		if (num > (2147483647 / 10))
-		{
-			if (sign == 1)
-				return (2147483647);
-			else
-				return (-2147483648);
-		}
-		if (num == 2147483647 / 10 && digit > 7)
-		{
-			if (sign == 1)
-				return (2147483647);
-			else
-				return (-2147483648);
-		}
 		num = (num * 10) + (str[i] - '0');
 		i++;
 	}
