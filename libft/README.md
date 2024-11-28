@@ -6,6 +6,16 @@
 
 This is my first project at 42 Kuala Lumpur. Libft is an individual project that involves learning how to re-create some standard C library functions that can be used later to build a library of useful functions for the rest of the program.
 
+## Makefile
+
+Command | Purpose
+--|--
+`make` | to compile libft with mandatory files
+`make bonus` | to compile libft with bonus
+`make clean` | to clean the working directory of object files `*.o`
+`make fclean` | to clean the working directory of object and archive files `*.o` / `*.a`
+`make re` | to clean and re-compile
+
 ## List of Functions
 ### Functions from `<ctype.h>` library
 * [`ft_isascii`](https://github.com/winniewing52/42KL_Cursus/blob/main/libft/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
