@@ -7,7 +7,7 @@ In so_long, you control a character that must collect all the collectibles on th
 
 - A simple and intuitive map system
 - Player movement using WASD or arrow keys
-- Collectibkes that must be gathered
+- Collectibles that must be gathered
 - An exit that is only accessible after collecting all items
 - Movement counter displayed in the terminal
 
